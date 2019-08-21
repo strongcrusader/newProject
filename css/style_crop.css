@@ -1,0 +1,20 @@
+/* CSS files add styling rules to your content */
+
+*{
+    padding:0px;
+    margin:0px;
+      
+    }
+
+body {
+    background-image:linear-gradient(to  right, rgba(10,44,23,0.6), rgba(123,23,234,0.2));
+}
+    
+.navbar.navbar-expand-lg.navbar-light.bg-light{
+    margin: 1%;
+}
+
+.card{
+    margin: 1%;
+    height: 1%;
+}
