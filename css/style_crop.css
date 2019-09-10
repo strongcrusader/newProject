@@ -1,20 +1,85 @@
-/* CSS files add styling rules to your content */
-
 *{
     padding:0px;
     margin:0px;
-      
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: inline-flex;
+    margin: 2rem 0 2rem 0 ;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-head{
+    margin: auto auto auto 1rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-image: linear-gradient( rgba(0,0,0,.7), rgba(0,0,0,.7) ) , url("../images/2.jpg");
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+  }
+  
+.nav-item-icon{
+    visibility: hidden;
+}
+
+li a {
+    display: block;
+    color: rgb(158, 157, 157);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    color: rgb(255, 255, 255);
+}
+
+li a:hover:not(.active) {
+    color: white;
+}
+
+.main-body{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+    background-color: #ebeef8;
+    color: #555;
+}
+
+.closebtn{
+    visibility: hidden;
+}
+
+@media screen and (max-width:851px){
+    .nav-item{
+        display: none;
     }
 
-body {
-    background-image:linear-gradient(to  right, rgba(10,44,23,0.6), rgba(123,23,234,0.2));
-}
-    
-.navbar.navbar-expand-lg.navbar-light.bg-light{
-    margin: 1%;
+    .nav-item-icon{
+        visibility: visible;
+    }
+
+    ul{
+        width:auto;
+    }
+
+    .main-body{
+        margin-left: 7%;
+    }
+
 }
 
-.card{
-    margin: 1%;
-    height: 1%;
+.main-head{
+    text-align: center;
+    margin-top: 2rem;
 }
