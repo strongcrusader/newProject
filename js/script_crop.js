@@ -1,7 +1,0 @@
-function openNav() {
-  
-}
-
-function closeNav() {
-  
-}
